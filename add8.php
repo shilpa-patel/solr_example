@@ -24,3 +24,4 @@ $response_array = $updateResponse->getResponse();
 $facet_data = $response_array->facet_counts->facet_fields;
 
 echo "<pre>";print_r($facet_data);
+///testttt,,
