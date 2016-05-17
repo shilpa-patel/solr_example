@@ -2,7 +2,7 @@
 include "bootstrap.php";
 
 $doc = new SolrDocument();
-
+//test..
 $second_doc = new SolrDocument();
 
 $doc->addField('id', 1123);
