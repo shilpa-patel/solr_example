@@ -1,0 +1,25 @@
+Install Solr For PHP
+sudo apt-get install php5-curl
+sudo apt-get install libcurl4-gnutls-dev
+sudo apt-get install libxml2
+sudo apt-get install libxml2-dev
+Download solr-0.9.11 (or any other latest version)
+cd solr-0.9.11  (check version should be matched to apache solr,otherwise commit function or other error will occur)
+phpize
+./configure
+make
+sudo make install
+cd /etc/php5/apache2/conf.d/
+sudo gedit solr.ini
+add 'extension:solr.so' text to solr.ini
+sudo /etc/init.d/apache2 restart
+
+
+
+
+Starts Solr :
+got the directory where solr is installed
+cd /opt/solr/example
+sudo java -Djetty.host=0.0.0.0 -jar start.jar
+
+
