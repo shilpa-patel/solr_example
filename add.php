@@ -2,7 +2,7 @@
 //phpinfo();die;
 //this is add.php file
 include "bootstrap.php";
-
+//my changes with new branch
 $options = array
 (
     'hostname' => SOLR_SERVER_HOSTNAME,
