@@ -1,6 +1,6 @@
 <?php
 include "bootstrap.php";
-
+//this is change 
 $options = array
 (
 		'hostname' => SOLR_SERVER_HOSTNAME,
